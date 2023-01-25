@@ -1,0 +1,89 @@
+*{
+box-sizing: border-box;
+}
+body,#root{
+   --background-color: white;
+  padding: 0;
+  display: block;
+}
+nav{
+  box-shadow: 0px 2px 5px black;
+  --#ffffff41;
+  display: flex;
+  font-size: 30px;
+  color: #00ccff;
+  padding: 20px 12px;
+  align-items: center;
+}
+.logo-text{
+  padding: 3px 3px;
+}
+section{
+  padding: 20px;
+  
+}
+.main>img{
+max-width: 90vw;
+  
+  align-self: center;
+  
+}
+.main>h3{
+  margin-top: 2rem;
+  margin-bottom: .1rem;
+}
+.main>p{
+  margin-top:.2rem;
+}
+
+.main{
+ display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.flex{
+display: flex;
+align-items: center;
+  --flex-direction: column;
+} 
+.gray{
+  color: gray;
+}
+.d-gray{
+  color: darkgray;
+}
+.card-img{
+  border-radius:10px;
+}
+.icon{
+  height: 20px;
+}
+.ratings{
+  margin-top: 0px;
+  margin-bottom:0;
+  padding-block: 10px;
+}
+.card-desc{
+  margin 0;
+}
+.pricing>*{
+  margin: 0;
+  padding: 2px;
+}
+
+
+.card-status{
+  position: absolute;
+  border-radius: 5px;
+  background: white;
+  margin: 10px 10px;
+  padding: 0px 10px;
+  color: black;
+  font-size: .7rem
+}

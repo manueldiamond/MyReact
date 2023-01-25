@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding:0;
+}
+.flex,.flex-column{
+  display: flex;
+  align-items: center;
+}
+.flex-column{
+  flex-direction: column;
+}
+.black{
+  color: black;
+}
+.headr{
+  justify-content: center;
+  color: white;
+  background: #ff3636ba;
+}
+.gray{
+  color:gray;
+}
+
+.entry-img{
+  border-radius: 10px;
+  margin:10px 10px;
+}
+.entry-rule{
+  display:block;
+}

@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+body{
+  margin: 0;
+  background: #252525;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  overflow: hidden;
+  box-shadow: 0 0 6px black;
+  width: 300px;
+  --max-width: 500px;
+  position: relative;
+  color: white;
+  background: #171717;
+  border-radius: 10px
+}
+footer{
+ --position: absolute;
+ --margin-top: 40px;
+ background: #000000b4;
+ padding-block: 10px;
+--bottom: 0;
+ justify-content: center;
+}
+
+.socials>button{
+  height: 30px;
+  max-width: 30px;
+  margin: 2px 5px;
+}
+.wa,.fb,.li,.ig{
+  padding-inline: 20px;
+  background:#ffffff7c url('./assets/react.svg');
+  --background-size: 15px ;
+  background-repeat: none;
+  background-position: center ;
+}
+.pp{
+   position: absolute;
+   width: 300px;
+   transform: translate(-50%,-22.5%);
+}
+.profile{
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+}
+p{
+  margin: 0;
+  text-align: left;
+  font-size: 9px;
+  line-height: 1rem;
+}
+h5{
+  font-size: 12px;
+  inline-size:1.2rem;
+  margin: 0;
+  text-align: left;
+}
+.name{
+  font-size: 20px;
+  padding-top: 5px;
+  margin: 0;
+  --padding-bottom:  2px;
+  --background-color: white;
+}
+.title{
+  margin:0;
+  --background-color: white;
+  --margin-top: 2px;
+  font-size: 13px;
+  color: #ffd887;
+}
+.interests, .about{
+  padding: 12px 12px;
+}
+.connect{
+  width: auto;
+  justify-content: evenly-spaced;
+  margin-top: 1rem;
+}
+.connect>button{
+  padding: 10px 10px;
+  font-size: 9 px;
+  color:#000000df;
+  background: #ffffff;
+  width:130px;
+  --height: inherit;
+  margin-inline: 5px;
+}
+.connect>button>img{
+  
+  height:15px;
+  margin-inline: 10px;
+}

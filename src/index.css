@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  background: white;
+  color: black;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+button{
+  border: none;
+}
+

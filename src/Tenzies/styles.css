@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  background-color: #052128;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.container{
+  padding: 20px;
+  max-width: 400px;
+  height: 400px;
+  background:lightgray;
+  border-radius: 5px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.dice{
+  margin-block: 25px;
+  display: grid;
+  grid-template:auto auto /repeat(5,1fr);
+  --padding: 5px;
+}
+.die{
+  background: white; 
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  padding: 5px;
+  display: flex;
+  margin: 5px;
+}
+.die-face{
+  align-self: center;
+  display: grid;
+  grid-template: auto auto /repeat(2,1fr);
+}
+.shadow{
+  box-shadow: 0px 2px 5px #0000004e;
+}
+.roll{
+  
+  background-color: blue;
+  color:white;
+  border-radius:5px;
+  padding: 10px 20px
+  size:40px 30px;
+  border:none;
+}
+
+.held{
+  background-color: green;
+}
+
+.dot{
+  background-color: black;
+  border-radius: 50%;
+  width:10px;
+  height:10px;
+  display: block;
+  margin: 1px;
+}
+
+.jc-space{
+  justify-content: space-between;
+}
+.al-end{
+  align-self: end;
+}
+.al-center{
+  align-self: center;
+}
+.al-begin{
+  align-self: start;
+}
+.flex{
+  display:flex;
+}
+
+.flex-column{
+  display:flex;
+  flex-direction: column;
+}
+.bg-red{
+  background: red;
+}
